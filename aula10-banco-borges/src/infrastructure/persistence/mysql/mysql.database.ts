@@ -1,10 +1,8 @@
 import * as Sequelize from 'sequelize';
-
-
+import databaseConfig from '../../config/database.config';
 import { IDatabaseModel } from "../databasemodel.interface";
 
 export class MysqlDatabase implements IDatabaseModel {
-    private _data: any;
     private static _instance: MysqlDatabase;
     private _db: string;
     private _username: string;
@@ -15,13 +13,13 @@ export class MysqlDatabase implements IDatabaseModel {
     private _adapter: Sequelize.Sequelize;
 
     private constructor(){
-        this._db = 'banco_borges';
-        this._username = 'root';
-        this._password = 'qweiop';
-        this._host = 'host.docker.internal';
+        this._db = databaseConfig.db!;
+        this._username = databaseConfig.username!;
+        this._password = databaseConfig.password!;
+        this._host = databaseConfig.host!;
         this._dialect = 'mysql';
-        this._port = 3306;
-
+        this._port = databaseConfig.port;
+        
         this._adapter = new Sequelize.Sequelize(this._db, this._username , this._password, {
             host: this._host,
             dialect: this._dialect,
