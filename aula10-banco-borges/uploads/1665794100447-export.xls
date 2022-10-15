@@ -1,0 +1,30 @@
+<?xml version="1.0"?><?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:x="urn:schemas-microsoft-com:office:excel">
+    <Styles>
+        <Style ss:ID="colHeader">
+            <Alignment ss:Vertical="Center" ss:WrapText="1"></Alignment>
+            <Borders></Borders>
+            <Font ss:Bold="1" ss:FontName="Calibri"></Font>
+            <Interior ss:Color="#e5e6e8" ss:Pattern="Solid"></Interior>
+            <NumberFormat></NumberFormat>
+            <Protection></Protection>
+        </Style>    
+        <Style ss:ID="colData">
+            <Alignment></Alignment>
+            <Borders></Borders>
+            <Font ss:FontName="Calibri"></Font>
+            <Interior></Interior>
+            <NumberFormat></NumberFormat>
+            <Protection></Protection>
+        </Style>    
+    </Styles>
+    
+    <Worksheet ss:Name="Report"><WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+            <Selected></Selected>
+            <FreezePanes></FreezePanes>
+            <FrozenNoSplit></FrozenNoSplit>
+            <Zoom>90</Zoom>
+        </WorksheetOptions>
+        <Table x:FullColumns="1" x:FullRows="1"><Column ss:AutoFitWidth="1" ss:Width="100"></Column><Column ss:AutoFitWidth="1" ss:Width="100"></Column><Column ss:AutoFitWidth="1" ss:Width="100"></Column><Column ss:AutoFitWidth="1" ss:Width="100"></Column><Column ss:AutoFitWidth="1" ss:Width="100"></Column><Column ss:AutoFitWidth="1" ss:Width="100"></Column><Column ss:AutoFitWidth="1" ss:Width="100"></Column><Column ss:AutoFitWidth="1" ss:Width="100"></Column><Column ss:AutoFitWidth="1" ss:Width="100"></Column><Column ss:AutoFitWidth="1" ss:Width="100"></Column><Column ss:AutoFitWidth="1" ss:Width="100"></Column><Column ss:AutoFitWidth="1" ss:Width="100"></Column><Column ss:AutoFitWidth="1" ss:Width="100"></Column><Column ss:AutoFitWidth="1" ss:Width="100"></Column><Column ss:AutoFitWidth="1" ss:Width="100"></Column><Column ss:AutoFitWidth="1" ss:Width="100"></Column><Column ss:AutoFitWidth="1" ss:Width="100"></Column><Column ss:AutoFitWidth="1" ss:Width="100"></Column><Column ss:AutoFitWidth="1" ss:Width="100"></Column><Column ss:AutoFitWidth="1" ss:Width="100"></Column><Column ss:AutoFitWidth="1" ss:Width="100"></Column><Column ss:AutoFitWidth="1" ss:Width="100"></Column><Column ss:AutoFitWidth="1" ss:Width="100"></Column>    
+            <Row ss:Height="50"><Cell ss:StyleID="colHeader"><Data ss:Type="String">Lead Id</Data></Cell><Cell ss:StyleID="colHeader"><Data ss:Type="String">Lead Owner</Data></Cell><Cell ss:StyleID="colHeader"><Data ss:Type="String">First Name</Data></Cell><Cell ss:StyleID="colHeader"><Data ss:Type="String">Last Name</Data></Cell><Cell ss:StyleID="colHeader"><Data ss:Type="String">Segment Company Size</Data></Cell><Cell ss:StyleID="colHeader"><Data ss:Type="String">Title</Data></Cell><Cell ss:StyleID="colHeader"><Data ss:Type="String">Lead Age</Data></Cell><Cell ss:StyleID="colHeader"><Data ss:Type="String">Company</Data></Cell><Cell ss:StyleID="colHeader"><Data ss:Type="String">Lead Source</Data></Cell><Cell ss:StyleID="colHeader"><Data ss:Type="String">Industry</Data></Cell><Cell ss:StyleID="colHeader"><Data ss:Type="String">Status</Data></Cell><Cell ss:StyleID="colHeader"><Data ss:Type="String">Campaign Name</Data></Cell><Cell ss:StyleID="colHeader"><Data ss:Type="String">Campaign Member Status</Data></Cell><Cell ss:StyleID="colHeader"><Data ss:Type="String">Created Date</Data></Cell><Cell ss:StyleID="colHeader"><Data ss:Type="String">Use Case/Workload</Data></Cell><Cell ss:StyleID="colHeader"><Data ss:Type="String">Lead Status Reason</Data></Cell><Cell ss:StyleID="colHeader"><Data ss:Type="String">Phone</Data></Cell><Cell ss:StyleID="colHeader"><Data ss:Type="String">Email</Data></Cell><Cell ss:StyleID="colHeader"><Data ss:Type="String">Street</Data></Cell><Cell ss:StyleID="colHeader"><Data ss:Type="String">City</Data></Cell><Cell ss:StyleID="colHeader"><Data ss:Type="String">State/Province</Data></Cell><Cell ss:StyleID="colHeader"><Data ss:Type="String">Zip/Postal Code</Data></Cell><Cell ss:StyleID="colHeader"><Data ss:Type="String">Country</Data></Cell></Row>
+        </Table></Worksheet>
+</Workbook>
